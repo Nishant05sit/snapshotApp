@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <div><h1>SnapShot Search</h1></div>
       <div className="custom">
-        <input type="text" onChange={(event) => setQuery(event.target.value)} placeholder="enter"/>
+        <input type="text" onChange={(event) => setQuery(event.target.value)} placeholder="Enter"/>
         <button onClick={search} > Search</button>
       </div>
       <div className="contain">
